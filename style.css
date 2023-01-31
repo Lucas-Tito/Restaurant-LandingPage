@@ -4,10 +4,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
 }
 
 body{
     background: rgb(246, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 li, a, button{
@@ -79,7 +84,7 @@ button:hover{
 
 .select-menu{
    
-    margin: 40px 150px 0 150px;
+    margin: 40px 150px 40px 150px;
 }
 
 .select-menu .select-btn{
@@ -148,4 +153,46 @@ button:hover{
     
     font-weight: 100;
     padding: 10px;
+}
+
+
+/* ---SELECT-MENU--- */
+footer{
+    margin-top: auto;
+    background: rgb(18, 18, 18);
+    color: #edf0f1;
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content .message{
+    font-size: 10px;
+    word-spacing: 1px;
+    margin: 0;
+    max-height: 250px;
+    color: rgba(245, 222, 179, 0.45);
+}
+
+
+.footer-content p{
+    max-width: 500px;
+    margin: 0px 0 8px 0;
+    line-height: 28px;
+    font-size: 14px;
+    word-spacing: 2px;
+}
+
+
+.footer-content span{
+    opacity: .4;
+    font-weight: 200;
 }
