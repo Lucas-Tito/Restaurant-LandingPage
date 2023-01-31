@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+body{
+    background: rgb(246, 255, 255);
+}
 
 li, a, button{
     font-family: "Montserrat", sans-serif;
@@ -76,17 +79,21 @@ button:hover{
 
 .select-menu{
    
-    margin: 40px 40px 0 40px;
+    margin: 40px 150px 0 150px;
 }
 
 .select-menu .select-btn{
     cursor: pointer;
     display: flex;
     height: 55px;
-    background: wheat;
+    background: white;
+    border: rgb(247, 235, 214);
+    border-style: solid;
+    border-width: 2px;
     padding: 20px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 100;
+    color: #1a0004;
     border-radius: 10px;
     align-items: center;
     justify-content: space-between;
@@ -96,7 +103,7 @@ button:hover{
 .select-menu .select-menu-options{
     position: relative;
     padding: 20px;
-    background: wheat;
+    background: rgba(255, 198, 92, 0.2);
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
@@ -105,28 +112,40 @@ button:hover{
 
 .select-menu-options .option{
     display: flex;
-    height: 55px;
-    align-items: center;
-    padding: 0 16px;
+    height: 85px;
+    align-items: flex-start;
     border-radius: 8px;
-    background: wheat;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.88);
     cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 .select-menu-options .option:hover{
-    background: rgba(0, 0, 0, 0.5);;
+    background: rgba(0, 0, 0, 0.1);;
 }
 
 .select-menu.active .select-menu-options{
     display: block;
 }
 
+
 .option img{
-    height: 30px;
-    width: 30px;
+    height: 100px;
+    width: 150px;
     margin-right: 10px ;
 }
 
+
+.option .option-text-title{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
+
 .option .option-text{
-    font-size: 15px;
+    font-size: 13px;
+    
+    font-weight: 100;
+    padding: 10px;
 }
