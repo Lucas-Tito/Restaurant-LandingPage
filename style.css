@@ -71,6 +71,25 @@ button:hover{
 }
 
 
+.banner{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    overflow: hidden;
+    margin: 30px 50px 20px 50px;
+    border-radius: 15px;
+    opacity: 85%;
+}
+
+.banner-container{
+    margin-left: 10px;
+    color: white;
+    line-height: 60px;
+}
+
+
+
 /* ---SELECT-MENU--- */
 .selector-img{
     height: 20px;
