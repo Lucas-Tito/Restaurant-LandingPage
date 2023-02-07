@@ -82,9 +82,9 @@ button:hover{
     transform: rotate(-180deg);
 }
 
-.select-menu{
+.select-menu {
    
-    margin: 40px 150px 40px 150px;
+    margin: 40px 150px 20px 150px;
 }
 
 .select-menu .select-btn{
