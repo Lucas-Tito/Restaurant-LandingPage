@@ -1,3 +1,3 @@
 # Restaurant-LandingPage
 Created a restaurant landing page based on my father's business
-![export](https://user-images.githubusercontent.com/61806906/217401735-ec55a65f-4b59-42a4-95d4-751a4f864caf.png)
+![Screenshot (32)](https://user-images.githubusercontent.com/61806906/217402465-e53b2962-1ae0-408a-bc98-cedf4748340c.png)
