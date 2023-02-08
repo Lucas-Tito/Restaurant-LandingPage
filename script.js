@@ -1,3 +1,5 @@
+screen.orientation.lock('landscape')
+
 //--+This chunk of code is responsible for dynamically add event listeners for each menu+--
 class OptionMenu{
     constructor(menu, btn){
