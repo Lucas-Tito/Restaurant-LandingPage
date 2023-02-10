@@ -82,7 +82,7 @@ button:hover{
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 14em;
+    max-height: 16em;
     overflow: hidden;
     margin: 30px 5% 10vh 5%;
     border-radius: 15px;
@@ -91,19 +91,37 @@ button:hover{
 .banner-container{
     margin: 5% 5%;
     color: white;
-    line-height: 55px;
+    line-height: 2.5em;
 }
 
 .banner-container h1{
     font-family: 'Café Françoise', sans-serif;
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: lighter;
+    width: fit-content;
+    max-width: 45vw;
 }  
 
 .banner-container p{
     font-size: 0.8em;
     font-weight: lighter;
     color: rgba(255, 255, 255, 0.7);
+}
+
+@media(max-width:400px){
+    
+    .banner-container{
+        margin: 8% 8%;
+        line-height: 2.2em;
+    }
+
+    .banner-container h1{
+        font-size: 1.9em;
+    }  
+
+    .banner-container p{
+        font-size: 0.75em;
+    }
 }
 
 
