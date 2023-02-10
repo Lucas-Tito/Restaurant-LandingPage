@@ -82,26 +82,26 @@ button:hover{
     position: relative;
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 14em;
     overflow: hidden;
-    margin: 30px 50px 100px 50px;
+    margin: 30px 5% 10vh 5%;
     border-radius: 15px;
 }
 
 .banner-container{
-    margin: 20px 20px;
+    margin: 5% 5%;
     color: white;
     line-height: 55px;
 }
 
 .banner-container h1{
     font-family: 'Café Françoise', sans-serif;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: lighter;
 }  
 
 .banner-container p{
-    font-size: 12px;
+    font-size: 0.8em;
     font-weight: lighter;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -119,7 +119,7 @@ button:hover{
 }
 
 .select-menu {
-    margin: 40px 150px 30px 150px;
+    margin: 40px 15% 30px 15%;
 }
 
 
@@ -192,7 +192,6 @@ button:hover{
 
 .option .option-text{
     font-size: 13px;
-    
     font-weight: 100;
     padding: 10px;
 }
