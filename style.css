@@ -82,9 +82,10 @@ button:hover{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    background-color: rgba(0, 136, 169, 1);
+    background-color: #0088a9;
     border-radius: 8px;
     padding: 10px 20px;
+    transition: none;
 }
 
 
