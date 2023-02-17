@@ -77,6 +77,16 @@ button:hover{
     background-color: rgba(0, 136, 169, 0.3);
 }
 
+.copy_btn{
+    background-image: url(images/copy_to_clipboard_icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(0, 136, 169, 1);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
 
 .banner{
     position: relative;
@@ -294,4 +304,42 @@ footer{
 .footer-content span{
     opacity: .4;
     font-weight: 200;
+}
+
+
+.popup{
+    /* width: 25vw; */
+    background: rgb(18, 18, 18);
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 38%;
+    align-self: center;
+    /* transform: translate(-30%, -30%); */
+    text-align: center;
+    padding: 10px 15px;
+    visibility: hidden;
+}
+
+.popup.active{
+    visibility: visible;
+}
+
+.popup h2{
+    margin-bottom: 15px;
+}
+
+.popup img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 2px;
+}
+
+.popup button{
+    margin-left: 10px;
+}
+
+.popup p{
+    display: flex;
+    justify-content: center;
 }

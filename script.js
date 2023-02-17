@@ -24,4 +24,10 @@ OptionMenus.forEach((item) =>{
 
 //---------------------++--------------------------
 
+let contact_btn = document.querySelector(".contact_btn")
+
+contact_btn.addEventListener("click", ()=>{
+    let popup = document.querySelector(".popup")
+    popup.classList.toggle("active")
+})
 
