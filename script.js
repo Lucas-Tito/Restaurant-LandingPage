@@ -1,5 +1,3 @@
-screen.orientation.lock('landscape')
-
 //--+This chunk of code is responsible for dynamically add event listeners for each menu+--
 class OptionMenu{
     constructor(menu, btn){
@@ -35,3 +33,8 @@ close_btn.addEventListener("click", ()=>{
     popup.classList.toggle("active")
 })
 
+let copyNumber_field = document.querySelector(".copy_field")
+copyNumber_field.addEventListener("click", ()=>{
+    console.log("susmoments");
+    navigator.clipboard.writeText(copyNumber_field.innerText)
+})
