@@ -88,6 +88,16 @@ button:hover{
     transition: none;
 }
 
+.close_btn{
+    margin-right: -75%;
+    transition: none;
+    background-image: url(images/close_icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+}
+
 
 .banner{
     position: relative;
@@ -320,6 +330,9 @@ footer{
     text-align: center;
     padding: 10px 15px;
     visibility: hidden;
+
+    border: 10px;
+    border-color: #0088a9;
 }
 
 .popup.active{
