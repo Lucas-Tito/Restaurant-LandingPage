@@ -30,11 +30,14 @@ contact_btn.addEventListener("click", ()=>{
 
 let close_btn = document.querySelector(".close_btn")
 close_btn.addEventListener("click", ()=>{
-    popup.classList.toggle("active")
+    popup.classList.remove("active")
+    copyNumber_btn.classList.remove("active")
 })
 
 let copyNumber_field = document.querySelector(".copy_field")
+let copyNumber_btn = document.querySelector(".copy_btn")
 copyNumber_field.addEventListener("click", ()=>{
-    console.log("susmoments");
-    navigator.clipboard.writeText(copyNumber_field.innerText)
+    navigator.clipboard.writeText(copyNumber_field.innerText)    
+    
+    copyNumber_btn.classList.add("active")
 })

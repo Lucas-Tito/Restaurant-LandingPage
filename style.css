@@ -358,3 +358,8 @@ footer{
     justify-content: center;
     cursor: pointer;
 }
+
+.copy_btn.active{
+    background-color: rgb(85, 197, 85);
+    background-image: url(images/tick_icon.svg);
+}
