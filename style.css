@@ -366,14 +366,9 @@ footer{
 .aboutUs_container{
     display: flex;
     justify-content: center;
-    margin: 60px 3% 60px 3%; 
-    /* margin: 20px 100px 0 100px; */
-    border-radius: 7px;
-    padding: 10px 10px 10px 10px;
-}
-
-.aboutUs_container #background{
-    background-color: #edf0f1;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 120px;    
 }
 
 .aboutUs_container h1{
@@ -392,12 +387,30 @@ footer{
 }
 
 .aboutUs_container .aboutUs_text{
-max-width: 50ch;
+    max-width: 50ch;
+    padding-left: 25px;
+    line-height: 24px;
 }
 
+.aboutUs_container .aboutUs_text p{
+    font-size: clamp(10px, 16px);
+}
+
+.aboutUs_container .aboutUs_text :not(:first-of-type){
+    padding-top: 15px;
+}
 
 .aboutUs_container img{
-    max-width: 35%;
-    margin-right: 25px;
+    max-width: 336.6px;
     border-radius: 7px;
+}
+
+@media (max-width:776px) {
+    .aboutUs_container{
+        flex-direction: column;
+    }
+    
+    .aboutUs_container .aboutUs_text{
+        order: 1;
+    }
 }
