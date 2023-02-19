@@ -203,7 +203,6 @@ button:hover{
     border-radius: 8px;
     overflow: hidden;
     background: rgba(255, 255, 255, 0.88);
-    cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 
@@ -344,7 +343,6 @@ footer{
 }
 
 .popup img{
-    height: 50px;
     width: 50px;
     margin-bottom: 2px;
 }
@@ -362,4 +360,44 @@ footer{
 .copy_btn.active{
     background-color: rgb(85, 197, 85);
     background-image: url(images/tick_icon.svg);
+}
+
+
+.aboutUs_container{
+    display: flex;
+    justify-content: center;
+    margin: 60px 3% 60px 3%; 
+    /* margin: 20px 100px 0 100px; */
+    border-radius: 7px;
+    padding: 10px 10px 10px 10px;
+}
+
+.aboutUs_container #background{
+    background-color: #edf0f1;
+}
+
+.aboutUs_container h1{
+    font-size: 1.9rem;
+    width: fit-content;
+    margin-bottom: 18px;
+}
+
+.aboutUs_container hr{
+    margin-left: 0;
+    margin-right: 0;
+    height: 5px;
+    width: 100%;
+    background-color: #0088a9;
+    border: none;
+}
+
+.aboutUs_container .aboutUs_text{
+max-width: 50ch;
+}
+
+
+.aboutUs_container img{
+    max-width: 35%;
+    margin-right: 25px;
+    border-radius: 7px;
 }
