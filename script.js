@@ -1,43 +1,42 @@
 //--+This chunk of code is responsible for dynamically add event listeners for each menu+--
-class OptionMenu{
+class CategoryMenuElement_Object{
     constructor(menu, btn){
         this.menu = menu
         this.btn = btn
     }
 }
 
-const optionMenu = document.querySelectorAll(".select-menu"),
-        selectBtn = document.querySelectorAll(".select-btn")
+//example of an category menu: Lunch, Snacks...
+const CategoryMenuElement = document.querySelectorAll(".select-menu"),
+      CategoryMenuBtn = document.querySelectorAll(".select-btn"),
+      CategoryMenuElement_Array = new Array()
 
-const OptionMenus = new Array();
-for(i=0; i<optionMenu.length; i++)
-    OptionMenus.push(new OptionMenu(optionMenu[i], selectBtn[i]))
+for(i=0; i<CategoryMenuElement.length; i++)
+    CategoryMenuElement_Array.push(new CategoryMenuElement_Object(CategoryMenuElement[i], CategoryMenuBtn[i]))
 
-OptionMenus.forEach((item) =>{
-    item.btn.addEventListener("click", ()=>{
-        item.menu.classList.toggle("active")
-        console.log("sus");
+CategoryMenuElement_Array.forEach((menu_element) =>{
+    menu_element.btn.addEventListener("click", ()=>{
+        menu_element.menu.classList.toggle("active")
     })
 })
 
 //---------------------++--------------------------
 
-let contact_btn = document.querySelector(".contact_btn")
-let popup = document.querySelector(".popup")
+let contact_btn = document.querySelector(".contact_btn"),
+    contact_popup = document.querySelector(".popup")
 contact_btn.addEventListener("click", ()=>{
-    popup.classList.toggle("active")
+    contact_popup.classList.toggle("active")
 })
 
-let close_btn = document.querySelector(".close_btn")
-close_btn.addEventListener("click", ()=>{
-    popup.classList.remove("active")
+let popup_closer_btn = document.querySelector(".close_btn")
+popup_closer_btn.addEventListener("click", ()=>{
+    contact_popup.classList.remove("active")
     copyNumber_btn.classList.remove("active")
 })
 
-let copyNumber_field = document.querySelector(".copy_field")
-let copyNumber_btn = document.querySelector(".copy_btn")
+let copyNumber_field = document.querySelector(".copy_field"),
+    copyNumber_btn = document.querySelector(".copy_btn")
 copyNumber_field.addEventListener("click", ()=>{
     navigator.clipboard.writeText(copyNumber_field.innerText)    
-    
     copyNumber_btn.classList.add("active")
 })
