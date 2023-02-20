@@ -367,7 +367,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-bottom: 120px;    
 }
 
@@ -408,9 +408,26 @@ footer{
 @media (max-width:776px) {
     .aboutUs_container{
         flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
     
-    .aboutUs_container .aboutUs_text{
-        order: 1;
+    .aboutUs_container :first-child{
+        order: 2;
     }
+
+    .aboutUs_container .aboutUs_text{
+        text-align: center;
+        margin-bottom: 40px;
+        max-width: 42ch;
+    }
+
+    .aboutUs_container .aboutUs_text h1{
+        margin: auto;
+        margin-bottom: 25px;
+    }
+
+    
+
+
 }
