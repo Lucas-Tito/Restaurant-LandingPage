@@ -419,15 +419,12 @@ footer{
     .aboutUs_container .aboutUs_text{
         text-align: center;
         margin-bottom: 40px;
-        max-width: 42ch;
+        max-width: 40ch;
+        padding: 0;
     }
 
     .aboutUs_container .aboutUs_text h1{
         margin: auto;
         margin-bottom: 25px;
     }
-
-    
-
-
 }
