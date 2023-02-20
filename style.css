@@ -405,7 +405,7 @@ footer{
     border-radius: 7px;
 }
 
-@media (max-width:776px) {
+@media (max-width:940px) {
     .aboutUs_container{
         flex-direction: column;
         margin-top: 40px;
