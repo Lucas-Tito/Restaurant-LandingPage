@@ -147,6 +147,25 @@ button:hover{
 
 
 /* ---SELECT-MENU--- */
+
+.menu{
+    margin: 100px 10%;
+    background-color: #F2D6B3;
+    border-radius: 75px;
+}
+
+.menu #little_chef_guy{
+    margin: 10px 20px;
+    position: absolute;
+    width: 90px;
+}
+@media(max-width:485px){
+    .menu #little_chef_guy{
+        margin-top: 30px;
+        width: 70px;
+    }
+}
+
 .selector-img{
     height: 20px;
     width: 20px;
@@ -158,11 +177,16 @@ button:hover{
 }
 
 .select-menu {
-    margin: 40px 15% 30px 15%;
+    margin: 30px 5% 40px 5%;
 }
 
+.select-menu .Sbtn_text{
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
 
 .menu h1{
+    color: #734E39;
     font-family: 'Café Françoise', sans-serif;
     font-weight: lighter;
     
@@ -172,14 +196,14 @@ button:hover{
     cursor: pointer;
     display: flex;
     height: 55px;
-    background: white;
-    border: rgb(247, 235, 214);
+    background: #D99F6C;
+    border: rgb(247, 223, 214);
     border-style: solid;
     border-width: 2px;
     padding: 20px;
     font-size: 18px;
     font-weight: 100;
-    color: #1a0004;
+    color: white;
     border-radius: 10px;
     align-items: center;
     justify-content: space-between;
