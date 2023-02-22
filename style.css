@@ -213,7 +213,7 @@ button:hover{
 .select-menu .select-menu-options{
     position: relative;
     padding: 20px;
-    background: rgba(255, 198, 92, 0.2);
+    background: #d3ad8b;;
     border-radius: 10px;
     margin-top: 10px;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
