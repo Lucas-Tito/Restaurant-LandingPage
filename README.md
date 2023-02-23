@@ -3,11 +3,9 @@
 </h1>
 
 <h3 align="center">
-  Checkout this site
-  <a href= "https://lucas-tito.github.io/Restaurant-LandingPage/"> here</a>
+  📺 You can watch a quick showcase
+  <a href= "https://www.youtube.com/watch?v=B-BlN-RBImA"> here</a>
 </h3>
-
-
 
 
 <p align="center">
@@ -17,15 +15,16 @@
 
 
 
-<h4 align="center">
-  The development of this website is on going.
-</h4>
+<h3 align="center">
+  Checkout this site
+  <a href= "https://lucas-tito.github.io/Restaurant-LandingPage/"> here</a>
+</h3>
 
-<br><br><br>
+<br><br>
 <h2 align="center">
   More Details 📃
 </h2>
 
 <p align="center">
-  This is a landing page based on my father's business
+  This is a landing page based on my father's business, built to be responsive (work on smaller screens too) and show the food and the story of the restaurant.
 </p>
