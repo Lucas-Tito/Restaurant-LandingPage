@@ -6,7 +6,7 @@
   📺 You can watch a quick showcase
   <a href= "https://www.youtube.com/watch?v=B-BlN-RBImA"> here</a>
 </h3>
-
+<br>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/61806906/220502303-568ac80b-750f-4069-9171-f9478243175c.png" alt="screenshot 1" width="35%" height="70%"/>
@@ -14,7 +14,7 @@
 </p>
 
 
-
+<br>
 <h3 align="center">
   Checkout this site
   <a href= "https://lucas-tito.github.io/Restaurant-LandingPage/"> here</a>
