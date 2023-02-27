@@ -301,6 +301,7 @@ button:hover{
 
 /* ---END OF SELECT-MENU--- */
 footer{
+    /* for the footer to stay at bottom, you will need to change settings on body */
     margin-top: auto;
     background: rgb(18, 18, 18);
     color: #edf0f1;
