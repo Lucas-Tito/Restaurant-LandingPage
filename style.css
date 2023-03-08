@@ -148,10 +148,17 @@ button:hover{
 
 /* ---SELECT-MENU--- */
 
+
 .menu{
     margin: 100px 10%;
     background-color: #F2D6B3;
     border-radius: 75px;
+    padding-bottom: 1px;
+}
+@media(min-width:1000px){
+    .menu{
+        margin: 100px 25%;
+    }
 }
 
 .menu #little_chef_guy{
